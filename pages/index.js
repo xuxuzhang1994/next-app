@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
 
-  const executeCalliOS = () => {
+  const executeCalliOS = (url) => {
     var iframe = document.createElement("IFRAME");
     iframe.setAttribute("src", url);
     document.body.appendChild(iframe);
