@@ -28,10 +28,10 @@ export default function Home() {
   return (
     <div className="container">
       <div onClick={openHref}>链接1</div>
+      {/* <div>链接1</div>
       <div>链接1</div>
       <div>链接1</div>
-      <div>链接1</div>
-      <div>链接1</div>
+      <div>链接1</div> */}
       <Link href="/test">
         <h1>title</h1>
       </Link>
