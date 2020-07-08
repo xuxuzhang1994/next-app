@@ -20,7 +20,7 @@ export default function Home() {
   }
 
 
-  const openHref = (func_id,) => {
+  const openHref = (func_id,para) => {
     jumpIOS(func_id, para)
   }
 
