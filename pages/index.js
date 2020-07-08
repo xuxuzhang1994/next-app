@@ -20,23 +20,39 @@ export default function Home() {
   }
 
 
-  const openHref = () => {
+  const openHref = (func_id,para) => {
     jumpIOS('07011040', 'ZH072011004000Y01')
   }
 
 
   return (
     <div className="container">
-      <div onClick={openHref}>链接1</div>
+      <a className="item" onClick={() => openHref()}>开通手机银行</a>
+      <a className="item" onClick={() => openHref('01991001','wl00002020011710')}>签约建行快贷</a>
+      <a className="item" onClick={() => openHref('07002001','')}>购买理财</a>
+      <a className="item" onClick={() => openHref('07005000','')}>购买基金</a>
+      <a className="item" onClick={() => openHref('01991001','jrsc002020030501')}>购买贵金属</a>
+      <a className="item" onClick={() => openHref('01991001','su00002020012203')}>办理结售汇</a>
+      <a className="item" onClick={() => openHref('05004001','')}>办理信用卡</a>
+      <a className="item" onClick={() => openHref('12008000','')}>签约龙支付</a>
       {/* <div>链接1</div>
       <div>链接1</div>
       <div>链接1</div>
       <div>链接1</div> */}
-      <Link href="/test">
-        <h1>title</h1>
-      </Link>
+      <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1389639650,3305055474&fm=26&gp=0.jpg" />
+      {/* <Link href="/test">
+        <h1>谢谢</h1>
+      </Link> */}
 
       <style jsx>{`
+        .item{
+          color: cadetblue;
+          margin-bottom: 20px;
+          text-decoration: underline;
+        }
+        .item:visited{
+            color: red;
+          }
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
