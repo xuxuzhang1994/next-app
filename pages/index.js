@@ -20,8 +20,8 @@ export default function Home() {
   }
 
 
-  const openHref = (func_id,para) => {
-    jumpIOS('07011040', 'ZH072011004000Y01')
+  const openHref = (func_id,) => {
+    jumpIOS(func_id, para)
   }
 
 
