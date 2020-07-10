@@ -27,13 +27,13 @@ export default function Home() {
 
   return (
     <div className="container">
-      <a className="item" onClick={() => openHref()}>开通手机银行</a>
-      <a className="item" onClick={() => openHref('01991001','wl00002020011710')}>签约建行快贷</a>
+      <a className="item" onClick={() => openHref('01002001','')}>开通手机银行</a>
+      <a className="item" onClick={() => openHref('08005001','')}>签约建行快贷</a>
       <a className="item" onClick={() => openHref('07002001','')}>购买理财</a>
       <a className="item" onClick={() => openHref('07005000','')}>购买基金</a>
-      <a className="item" onClick={() => openHref('01991001','jrsc002020030501')}>购买贵金属</a>
-      <a className="item" onClick={() => openHref('01991001','su00002020012203')}>办理结售汇</a>
-      <a className="item" onClick={() => openHref('05004001','')}>办理信用卡</a>
+      <a className="item" onClick={() => openHref('07009001','')}>购买贵金属</a>
+      <a className="item" onClick={() => openHref('07012000','')}>办理结售汇</a>
+      <a className="item" onClick={() => openHref('05000000','')}>办理信用卡</a>
       <a className="item" onClick={() => openHref('12008000','')}>签约龙支付</a>
       {/* <div>链接1</div>
       <div>链接1</div>
